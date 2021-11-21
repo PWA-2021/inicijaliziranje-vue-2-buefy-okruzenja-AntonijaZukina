@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html>
+<template>
+	
 
+<div>
 <head>
 		<meta charset="utf-8">
 		<title>Instrukcije | Welcome</title>
@@ -114,7 +115,8 @@
             <p>Učilica, Copyright &copy; 2021</p>
         </footer>
     </body>
-</html>
+	</div>
+</template> 
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
