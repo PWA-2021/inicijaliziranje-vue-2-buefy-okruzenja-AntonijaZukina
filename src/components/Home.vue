@@ -21,11 +21,11 @@
 			</div>
 			<nav>
                 <ul>
-                    <li class ="current"><a href="index1 - Copy.html">Početna</a></li>
+                    <li class ="current"><a href="#">Početna</a></li>
                     <li><a href="#nama">O nama</a></li>
-					 <li><a href="#kontakt">Kontakt</a></li>
-                    <li><a href="#">Predmeti</a></li>
-                    <li><a id="prijava" href="#">Prijava</a></li>
+					          <li><a href="#kontakt">Kontakt</a></li>
+                    <li><a href="#">Predmeti</a></li> <!-- materijali uz prijavu -->
+                    <li><a id="prijava" href="#">Prijava</a></li> <!--termin uz prijavu-->
                 </ul>
             </nav>
 			</div>
@@ -128,5 +128,185 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+    }  
+	
+.container {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul {
+	padding:0;
+	margin:0;
+}
+header {
+	background:#434b4e;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#dd5c88 3px solid;
+}
+header a {
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:15px;
+}
+
+header li {
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #brand {
+	float:left;
+
+}
+header #brand h1{
+	margin:0;
+
+}
+
+header nav {
+	float:right;
+	margin-top:10px;
+}
+
+header .highlight, header .current a {
+	color: #dd5c88;
+	font-weight: bold;
+	
+}
+
+header a:hover {
+	color:#cccccc; 
+	font-weight: bold;
+}
+
+#showcase {
+	min-height:400px;
+/* background:url("1611.jpg") no-repeat 0 -380px;*/
+	background-size:1300px 900px;
+	text-align:center;
+	color: #ffffff;
+}
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#showcase p{
+	font-size:20px;	
+	color:white;
+	font-weight:bold;
+}
+
+#newsletter {
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+}
+#newsletter h1{
+	float:left;
+}
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+#newsletter input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+.button_1 {
+	height:38px;
+	background:#dd5c88;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ffffff;
+}
+#boxes {
+	margin-top:20px;
+	padding-bottom:20px;
+	border-bottom:#dd5c88 3px solid;
+}
+#boxes .box {
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+}
+#boxes .box img {
+	width:250px;
+}
+
+#nama {
+	padding:30px;
+	margin-top:20px;
+	color:black;
+	background-color:#f4f4f4;
+	margin-bottom:20px;
+}
+
+
+#mapa {
+	padding:20px;
+	color:#ffffff;
+	background-color:#dd5c88;
+}
+#mapa p {
+	width: 40%;
+	float:left;
+}
+#mapa iframe {
+	float:right;
+}
+
+#kontakt {
+	padding:20px;
+	color:black;
+	background-color:#f4f4f4
+}
+#kontakt p {
+	float:left;
+	width: 40%;
+	margin-top:10px;
+}
+#kontakt iframe {
+	float:right;
+	margin-top:10px;
+}
+
+footer {
+	padding:30px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#dd5c88;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </style>

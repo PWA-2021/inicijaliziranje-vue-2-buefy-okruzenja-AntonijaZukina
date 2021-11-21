@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <!--<img alt="Vue logo" src="./assets/logo.png" /> -->
     <Home msg="Dobrodošli u Vue 2 za PWA kolegij" />
   </div>
 </template>
