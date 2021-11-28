@@ -1,30 +1,41 @@
 <template>
-  <div id="app">
-    <!--<img alt="Vue logo" src="./assets/logo.png" /> -->
-    <Home msg="Dobrodošli u Vue 2 za PWA kolegij" />
+  <div class="app-container">
+    <app-header>  </app-header>
+    <app-body>  </app-body>
+    <app-footer>  </app-footer>
+
+
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+ import Header from "./components/Header";
+ import Body from "./components/Body";
+ import Footer from "./components/Footer";
 
-export default {
+  export default {
   name: 'App',
   components: {
-    Home
+    "app-header": Header,  
+    "app-footer": Footer,
+    "app-body": Body
   }
-}
+};
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-img {
-  display: block;
-  margin: 30px auto;
-}
+<style>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+    }  
+	
+  app-container {
+	max-width: 70%;
+	margin:auto;
+	overflow:hidden;
+} 
 </style>
