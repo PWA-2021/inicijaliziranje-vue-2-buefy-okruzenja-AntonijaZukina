@@ -1,6 +1,6 @@
 <template>
-   <div>
-      
+   <body>
+   <div class="app-body">
       <section id ="showcase">
 			  <div class="app-container">
 				<h1>Instrukcije za sve!</h1>
@@ -11,8 +11,8 @@
 		</section>
 		<section id ="newsletter">
 			 <div class="app-container">
-				<h1>Preplati se na novosti</h1>
-				<form>
+				<h1 class="left half">Preplati se na novosti</h1>
+				<form class="left half">
 					<input type="email" placeholder="Upiši svoj email">
 					<button type="submit" class="button_1">Preplata</button>
 				</form>
@@ -28,7 +28,7 @@
 			
 			 </div>
 		</section>
-		
+   <hr class="linija">
 		<section id ="boxes">
 			<div class="app-container">
 				<div class="box">
@@ -39,7 +39,7 @@
 				<div class="box">
 					<img src="~@/assets/srednja.jpg">
 					<h3>Srednja škola</h3>
-					<p>Fizika  matematika ti zadaju muke? Više ne, uz naše metode. Kod nas se možeš prijaviti i za pripreme za maturu</p>
+					<p>Fizika i matematika ti zadaju muke? Više ne, uz naše metode. Kod nas se možeš prijaviti i za pripreme za maturu</p>
 				</div>
 				<div class="box">
 					<img src="~@/assets/img8.jpg">
@@ -48,7 +48,7 @@
 				</div>
 			 </div>
 		</section>
-		
+		<hr class="linija">
 		
 		<section id ="nama">
 			 <div class="app-container">
@@ -61,7 +61,7 @@
 		</section>
 		
 		<section id ="mapa">
-			 <div class="app-container">
+			 <div class="mapa-container">
 				<h1>Pronađi nas</h1>
 				<!-- staviti kartu -->
 				<p>Naš ured nalazi se na Vrbiku. Adresa je.. Mail je.. </p>
@@ -73,7 +73,7 @@
 		
 		
 		<section id ="kontakt">
-			 <div class="app-container">
+			 <div class="kontakt-container">
 				<h1>Kontakt</h1>
 				<!-- staviti kontakt i sidrište-->
 				<form action="/action_page.php">
@@ -85,7 +85,7 @@
 				  <input type="text" id="lname" name="lname"><br><br>
 				  <textarea name="message" rows="10" cols="30"></textarea>
 				 <input class=button_2 type="submit" value="Pošalji">
-				</form> 
+				</form>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/KGFPry6eL0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			 </div>
 		</section> 
@@ -93,6 +93,7 @@
       
       
    </div> 
+   </body>
 </template>
 <script>
 
@@ -104,126 +105,159 @@ export default {
 </script>
 <style scoped>
 
+
+
+   app-container {
+	max-width: 80%;
+	margin: 0 auto;
+	overflow:hidden; 
+} 
+.mapa-container{
+   max-width: 80%;
+   margin: 0 auto;
+   overflow: hidden;
+   min-height: 450px;
+}
+.kontakt-container{
+   max-width: 80%;
+   margin: 0 auto;
+   overflow: hidden;
+   min-height: 450px;
+}
+.left{
+      float: left;
+   }
+   .half{
+      width: 50%;
+   }
+
+
    #showcase {
-	min-height:400px;
+	min-height:400px; 
 	background:url("~@/assets/1611.jpg") no-repeat 0 -380px;
 	background-size:1300px 900px;
 	text-align:center;
 	color: #ffffff;
 }
-#showcase h1{
-	margin-top:100px;
+   #showcase h1{
+   margin: 0px;
+	padding-top: 100px;
 	font-size:55px;
-	margin-bottom:10px;
 }
-#showcase p{
+   #showcase p{
 	font-size:20px;	
 	color:white;
 	font-weight:bold;
 }
 
-#newsletter {
-	padding:10px;
-	color:#ffffff;
-	background:#35424a;
-}
-#newsletter h1{
-	float:left;
-}
-#newsletter form{
-	float:right;
-	margin-top:15px;
-}
-#newsletter input[type="email"]{
-	padding:4px;
-	height:25px;
-	width:250px;
-}
+   #newsletter {
+      padding-top: 25px;
+      padding-bottom: 60px;
+      color:#ffffff;
+      background:#35424a;
+      margin: 0 auto;
+      text-align: center;
+   }
+   #newsletter h1{
+      margin: 0;
+      padding: 0;
+   }
+   #newsletter input[type="email"]{
+      padding:4px;
+      height:25px;
+      width:250px;
+   }
 
-.button_1 {
-	height:38px;
-	background:#dd5c88;
-	border:0;
-	padding-left:20px;
-	padding-right:20px;
-	color:#ffffff;
-}
+   .button_1 {
+      height:38px;
+      background:#dd5c88;
+      border:0;
+      padding-left:20px;
+      padding-right:20px;
+      color:#ffffff;
+      cursor: pointer;
+   }
 
-#novosti {
-	padding:10px;
-	margin-top:20px;
-	padding-bottom:20px;
-	border-bottom:#dd5c88 3px solid;
-}
-#boxes {
-	margin-top:20px;
-	padding-bottom:20px;
-	border-bottom:#dd5c88 3px solid;
-}
-#boxes .box {
-	float:left;
-	text-align:center;
-	width:30%;
-	padding:10px;
-}
-#boxes .box img {
-	width:250px;
-}
+   #novosti {
+      width: 80%;
+      margin: 0 auto;
+      padding:10px;
+      margin-top:20px;
+      padding-bottom:20px;
+   }
+   hr.linija{
+      border-bottom:#dd5c88 3px solid;
+   }
+   #boxes {
+      margin-top:20px;
+      padding-bottom:20px;
+      min-height: 340px;
+   }
+   #boxes .box {
+      float:left;
+      text-align:center;
+      width: 30%;
+      padding:1.5%;
+   }
+   #boxes .box img {
+      width:250px;
+   }
 
-#nama {
-	padding:10px;
-	margin-top:20px;
-	color:black;
-	background-color:#f4f4f4;
-	margin-bottom:20px;
-}
+   #nama {
+      width: 80%;
+      margin: 0 auto;
+      padding:10px;
+      margin-top:20px;
+      color:black;
+      background-color:#f4f4f4;
+      margin-bottom:20px;
+   }
 
 
-#mapa {
-	padding:10px;
-	color:#ffffff;
-	background-color:#dd5c88;
-}
-#mapa p {
-	width: 40%;
-	float:left;
-}
-#mapa iframe {
-	float:right;
-}
+   #mapa {
+      min-height: 430px;
+      color:#ffffff;
+      background-color:#dd5c88;
+   }
+   #mapa p {
+      width: 50%;
+      float:left;
+   }
+   #mapa iframe {
+      float: left;
+      width: 50%;
+   }
 
-#kontakt input{
-	padding:6px;
-	height:25px;
-	width:250px;
-}
-#kontakt textarea {
-	padding:4px;
-	width:250px;
-}
+   #kontakt input{
+      height:25px;
+      width:250px;
+   }
+   #kontakt textarea {
+      width:250px;
+   }
+   #kontakt {
+      padding:20px;
+      color:black;
+      background-color:#f4f4f4
+   }
+   #kontakt form {
+      float:left;
+      width: 50%;
+      margin-top:10px;
+   }
 
-#kontakt {
-	padding:20px;
-	color:black;
-	background-color:#f4f4f4
-}
-#kontakt form {
-	float:left;
-	width: 30%;
-	margin-top:10px;
-}
-
-#kontakt .button_2 {
-	padding:4px;
-	height:50px;
-	background:#dd5c88;
-	border:0;
-	color:#ffffff;
-	width:250px;
-}
-#kontakt iframe {
-	float:right;
-	margin-top:10px;
-}
+   #kontakt .button_2 {
+      padding:4px;
+      height:50px;
+      background:#dd5c88;
+      border:0;
+      color:#ffffff;
+      width: 256px;
+   }
+   #kontakt iframe {
+      float:right;
+      margin-top:10px;
+      width: 50%;
+   }
 
 </style>

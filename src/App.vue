@@ -21,6 +21,7 @@
     "app-body": Body
   }
 };
+
 </script>
 
 <style>
@@ -31,11 +32,5 @@
   padding:0;
   margin:0;
   background-color: #f4f4f4;
-    }  
-	
-  app-container {
-	max-width: 70%;
-	margin:auto;
-	overflow:hidden;
-} 
+  }  
 </style>

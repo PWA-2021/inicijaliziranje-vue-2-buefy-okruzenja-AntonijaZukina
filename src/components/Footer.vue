@@ -1,7 +1,8 @@
 <template>
    <footer>
+      <div class= "app-footer">
       <p>Učilica, Copyright &copy; 2021</p>
-
+      </div>
    </footer>
 
 </template>

@@ -1,5 +1,4 @@
 <template>
-   <div>
     <header>  
       
       <div class= "app-container">
@@ -15,11 +14,11 @@
                   <li><a id="prijava" href="#">Prijava</a></li>
                 </ul>
             </nav>
+            
 			</div>
       
       
  </header> 
- </div>
 </template>
 <script>
 
@@ -31,7 +30,6 @@ export default {
 </script>
 
 <style scoped>
-   
 
   ul {
       padding:0;
@@ -65,11 +63,12 @@ export default {
 
    header #brand {
       float:left;
+   
 
    }
    header #brand h1{
       margin-left: 30px;
-      margin-top:10px;
+      margin-top:5px;
 
    }
 
@@ -84,7 +83,10 @@ export default {
       color:#cccccc; 
       font-weight: bold;
    }
-   
+   .app-container{
+      width: 80%;
+      margin: 0 auto;
+   }
 
 
 </style>
