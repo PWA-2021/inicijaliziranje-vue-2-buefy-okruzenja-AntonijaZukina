@@ -32,17 +32,17 @@
 		<section id ="boxes">
 			<div class="app-container">
 				<div class="box">
-					<img src="~@/assets//osnovna.jpg">
+					<!-- <img src="~@/assets/osnovna.jpg"> -->
 					<h3>Osnovna škola</h3>
 					<p>Svi predmeti osnovne škole za klince i klinceze. Nauči što poželiš uz naše instruktore. Ništa nije bauk!</p>
 				</div>
 				<div class="box">
-					<img src="~@/assets/srednja.jpg">
+					<!--<img src="~@/assets/srednja.jpg"> --> 
 					<h3>Srednja škola</h3>
 					<p>Fizika i matematika ti zadaju muke? Više ne, uz naše metode. Kod nas se možeš prijaviti i za pripreme za maturu</p>
 				</div>
 				<div class="box">
-					<img src="~@/assets/img8.jpg">
+					 <!-- <img src="~@/assets/img8.jpg"> --> 
 					<h3>Fakultet</h3>
 					<p>Pronađi koje sve fakultetske predmete nudimo na našim instrukcijama. Sigurno ćeš se iznenaditi</p>
 				</div>
@@ -134,7 +134,7 @@ export default {
 
    #showcase {
 	min-height:400px; 
-	background:url("~@/assets/1611.jpg") no-repeat 0 -380px;
+	background-image: url('~@/assets/1611.jpg') no-repeat 0 -380px;
 	background-size:1300px 900px;
 	text-align:center;
 	color: #ffffff;
