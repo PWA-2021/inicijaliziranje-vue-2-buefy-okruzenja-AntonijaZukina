@@ -1,5 +1,5 @@
 <template>
     <div>  
-        <h1>Ovo je About!</h1>
+        <h1>Ovo je kontakt!</h1>
     </div>
 </template>

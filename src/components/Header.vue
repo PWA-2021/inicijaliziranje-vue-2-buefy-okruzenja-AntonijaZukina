@@ -6,17 +6,14 @@
       </div>
       <nav>
         <ul>
-          <li class="current"><router-link to="/">Početna</router-link></li>
-          <li>
-            <router-link :to="{ path: '/', hash: 'nama' }">O nama</router-link>
-          </li>
-          <li><a href="#kontakt">Kontakt</a></li>
-          <li>
-            <router-link to="/about">About</router-link>
-          </li>
-          <li><a id="prijava" href="#">Prijava</a></li>
+          <li><router-link to="/">Početna</router-link></li>
+          <li><router-link to="/onama">O nama</router-link></li>
+          <li><router-link to="/kontakt">Kontakt</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/prijava">Prijava</router-link></li>
         </ul>
       </nav>
+      <router-view />
     </div>
   </header>
 </template>
