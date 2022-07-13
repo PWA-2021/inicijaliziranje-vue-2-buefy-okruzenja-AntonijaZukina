@@ -21,8 +21,7 @@
       <section id="novosti">
         <div class="app-container">
           <h1>Novosti</h1>
-          <p>Prati najnovije vijesti koje objavljuje...</p>
-          <!-- preplatom na novosti na mail dolaze novosti koje vučemo s neke obrazovne stranice -->
+          <p>Prati najnovije vijesti</p>
         </div>
       </section>
       <hr class="linija" />
