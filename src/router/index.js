@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import oNama from '../components/oNama.vue'
-import Kontakt from '../components/Kontakt.vue'
+import Kontakt from '../components/Rezervacija.vue'
 import Prijava from '../components/Prijava.vue'
 
 Vue.use(VueRouter)
@@ -21,8 +21,8 @@ const routes = [
     component: oNama
   },
   {
-    path: "/kontakt",
-    name: "Kontakt",
+    path: "/rezervacija",
+    name: "Rezervacija",
     component: Kontakt
   },
   {

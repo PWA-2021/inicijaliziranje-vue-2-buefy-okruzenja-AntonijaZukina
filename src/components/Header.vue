@@ -8,7 +8,7 @@
         <ul>
           <li><router-link to="/">Početna</router-link></li>
           <li><router-link to="/onama">O nama</router-link></li>
-          <li><router-link to="/kontakt">Kontakt</router-link></li>
+          <li><router-link to="/kontakt">Rezervacija</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <li><router-link to="/prijava">Prijava</router-link></li>
         </ul>
