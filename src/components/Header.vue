@@ -11,6 +11,7 @@
           <li><router-link to="/kontakt">Rezervacija</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <li><router-link to="/prijava">Prijava</router-link></li>
+          <li><router-link to="/uspjesi">Uspjesi</router-link></li>
         </ul>
       </nav>
       <router-view />

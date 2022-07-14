@@ -6,6 +6,7 @@ import About from '../views/About.vue'
 import oNama from '../components/oNama.vue'
 import Kontakt from '../components/Rezervacija.vue'
 import Prijava from '../components/Prijava.vue'
+import Uspjesi from '../components/Uspjesi.vue'
 
 Vue.use(VueRouter)
 
@@ -34,6 +35,11 @@ const routes = [
     path: "/prijava",
     name: "Prijava",
     component: Prijava
+  },
+  {
+    path: "/uspjesi",
+    name: "Uspjesu",
+    component: Uspjesi
   }
 ];
 
