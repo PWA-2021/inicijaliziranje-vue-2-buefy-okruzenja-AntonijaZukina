@@ -1,30 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Dobrodošli u Vue 2 za PWA kolegij" />
+    <Header />
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { Header, Footer },
+};
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-img {
-  display: block;
-  margin: 30px auto;
-}
-</style>
