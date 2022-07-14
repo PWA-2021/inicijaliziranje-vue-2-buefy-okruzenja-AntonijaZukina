@@ -73,7 +73,10 @@
         <div class="mapa-container">
           <h1>Pronađi nas</h1>
           <!-- staviti kartu -->
-          <p>Naš ured nalazi se na Vrbiku. Adresa je.. Mail je..</p>
+          <p>
+            Naš ured nalazi se na Vrbiku. Adresa je Ilica 27. Javi nam se putem
+            kontakt forme. Broj je 0913355667
+          </p>
 
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44513.140863961766!2d15.920146150078665!3d45.78979920103525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sTehni%C4%8Dko%20veleu%C4%8Dili%C5%A1te%20u%20Zagrebu!5e0!3m2!1shr!2shr!4v1637426172325!5m2!1shr!2shr"
