@@ -33,7 +33,7 @@
           <h2>2017</h2>
           <p>
             Ekonomska i birotehnička škola Bjelovar dobila je od Agencije za
-            mobilnost i programe EU – Erasmus + eTwinning, Nacionalnu oznaku
+            mobilnost i programe EU Erasmus + eTwinning, Nacionalnu oznaku
             kvalitete za eTwinning projekte “Virtualni sajam vježbeničkih
             tvrtki” i “SWOT VET”. Spomenute projekte su zajedno s učenicima
             provodili naši nastavnici Biljana Ilkoski i Saša Aušperger.
