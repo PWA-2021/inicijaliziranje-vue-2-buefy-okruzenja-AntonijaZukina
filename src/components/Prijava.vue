@@ -1,6 +1,6 @@
 <<template>
   <div class="container">
-    <h1>Prijava</h1>
+    <h1>Prijava novog korisnika</h1>
     <p>Ispunite formu kako biste kreirali račun</p>
     <hr />
 
@@ -50,8 +50,6 @@ export default {
   },
 };
 </script>
-
-
 
 <style scoped>
 div.container {
